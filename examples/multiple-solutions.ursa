@@ -1,0 +1,4 @@
+// second example from page 18 of:
+// https://research.microsoft.com/en-us/um/people/akenn/units/CEFP09TypesForUnitsOfMeasure.pdf
+real x{m^2}, a{m}, b;
+x = a * b;

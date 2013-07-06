@@ -1,0 +1,4 @@
+real mass, velocity, height, kinetic, potential;
+kinetic = 0.5 * mass * velocity * velocity;
+potential = 9.8 * mass * height;
+kinetic + potential;

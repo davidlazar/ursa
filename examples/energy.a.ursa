@@ -1,0 +1,4 @@
+real mass{kg}, velocity{m/s}, height{m}, kinetic{J}, potential{J};
+kinetic = 0.5{#} * mass * velocity * velocity;
+potential = 9.8{m/s^2} * mass * height;
+kinetic + potential;

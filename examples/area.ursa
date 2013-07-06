@@ -1,0 +1,5 @@
+// example from page 18 of:
+// https://research.microsoft.com/en-us/um/people/akenn/units/CEFP09TypesForUnitsOfMeasure.pdf
+real area{m^2};
+real y;
+area + y * y;

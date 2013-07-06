@@ -1,0 +1,10 @@
+// Hohmann transfer orbit
+real r1{m}, r2{m};
+real G = 6.67384e-11{m^3/kg s^2};
+real M = 5.97219e24{kg};
+real mu{m^3/s^2} = G * M;
+
+real v1{m/s} = (mu / r1)^(1/2) * ((2.0{#} * r2 / (r1 + r2))^(1/2) - 1.0{#});
+real v2{m/s} = (mu / r2)^(1/2) * (1.0{#} - (2.0{#} * r1 / (r1 + r2))^(1/2));
+
+v1 + v2;
